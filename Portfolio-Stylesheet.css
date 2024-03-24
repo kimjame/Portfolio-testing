@@ -113,3 +113,21 @@ body {
   width: 50px; /* Set the width of the logos to 50px */
   height: auto;
 }
+
+@media (max-width: 767px) {
+  .intro,
+  .subIntro,
+  .educ,
+  .college,
+  .highschool,
+  .project,
+  .subProject,
+  .github {
+    position: static;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
